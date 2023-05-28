@@ -1,0 +1,32 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 3fr 1fr; /*3배, 1배*/
+    grid-template-rows: 100px auto 50px;
+    /*헤더는 100px 메인, 사이드는 오토, 푸터는 50px 고정 */
+    grid-template-areas: 
+    'header header'
+    'main aside'
+    'footer footer';
+}
+
+header {
+    grid-area: header;
+    background-color: black;
+    color: white;
+}
+
+main {
+    grid-area: main;
+    background-color: orange;
+
+}
+aside {
+    grid-area: aside;
+    background-color: pink;
+}
+footer {
+    grid-area: footer;
+}

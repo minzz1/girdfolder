@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.navber {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #263343;
+    padding: 8px 12px;
+}
+
+.navber__logo {
+    font-size: 24px;
+    color: white;
+}
